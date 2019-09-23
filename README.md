@@ -9,7 +9,7 @@ To run this program, the following things are required:
 - Composer
 - Any relational DB (ex: MySql/PostgreSql)
 
-After cloning/ downloading the project, go to the project folder (carShareBackend) from cmd/terminal and run these following commands
+After cloning/ downloading the project, go to the project folder from cmd/terminal and run these following commands
 
 
 ```bash
@@ -49,5 +49,5 @@ php artisan serve
 If the command is successfully running, it will say that the program is running on port 7000 of your localhost. Now you can test the APIs. to see the list of available API use the following command
 
 ```bash
-php route:list
+php artisan route:list
 ```
